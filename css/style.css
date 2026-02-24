@@ -146,12 +146,11 @@ section {
     overflow: hidden;
 }
 
-.pozadinskaSlikaOnama::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.3);
-    z-index: 1;
+
+.pozadinskaSlikaOnama {
+    background-size: cover;      /* ispuni prostor */
+    background-position: center; /* centrirano */
+    background-repeat: no-repeat;
 }
 
 .pozadinskaSlikaOnama h1,
@@ -239,26 +238,23 @@ footer {
 @media (max-width: 768px) {
 
     /* === TYPOGRAPHY === */
-    p {
+     section p {
         font-size: 16px;
         line-height: 1.6;
         max-width: 38ch;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
     }
 
-    h1 {
+    section h1 {
         font-size: 26px;
         max-width: 20ch;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
     }
 
-    h2 {
+    section h2 {
         font-size: 22px;
         max-width: 24ch;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
     }
 
     /* === IMAGES === */
@@ -268,17 +264,25 @@ footer {
         display: block;
     }
 
-    /* Hero / velike slike */
-    .logo.velik {
-        height: 45vh;
-    }
+/* Hero / velike slike – MOBITEL */
+.logo.velik {
+    height: auto;          /* ⬅ NE forsiramo visinu */
+}
 
-    .logo.velik img {
-        object-fit: cover;
-    }
-     .pozadinskaSlikaOnama img {
-        object-fit: cover;
-    }
+.logo.velik img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;   /* ⬅ vidi se CIJELA slika */
+}
+.pozadinskaSlikaOnama  {
+    height: auto;          /* ⬅ NE forsiramo visinu */
+}
+
+.pozadinskaSlikaOnama img  img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;   /* ⬅ vidi se CIJELA slika */
+}
 
     /* Ostale content slike */
     .upitnik img,
@@ -288,6 +292,14 @@ footer {
         max-width: 100%;
         height: auto;
         margin: auto;
+    }
+    .pozadinskaSlikaOnama {
+        padding: 30px 20px;   /* manji padding */
+        font-size: 18px;
+    }
+    .slika-tima img {
+        width: 100%;
+        max-width: 100%;
     }
 }
 
