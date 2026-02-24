@@ -13,7 +13,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    flex-wrap: wrap; /* ⬅ popravak: omogućava prelamanje linkova ako nema mjesta */
 }
 
 .logo img {
@@ -24,9 +23,8 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 15px; /* ⬅ popravak: smanjen gap da zadnji linkovi ne izlaze */
+    gap: 25px;
     padding: 0;
-    flex-wrap: wrap; /* ⬅ popravak: linkovi se spuste ako nema mjesta */
 }
 
 nav a {
@@ -50,17 +48,17 @@ h1, h2 {
 .logo.velik {
     position: relative;
     width: 100%;
-    height: auto; /* ⬅ popravak: NE forsiramo 80vh, cijela slika vidi se */
+    height: 80vh;             
     overflow: hidden;
 }
 
 .logo.velik img {
     width: 100%;
-    height: auto; /* ⬅ popravak: cijela slika vidi se */
-    object-fit: contain; /* ⬅ popravak: NE odsijeca sliku */
+    height: 100%;             
+    object-fit: cover;
 }
 
-/* TEKST PREKO SLIKE */
+/* TEKST PREKO  SLIKE */
 .logo.velik-text {
     position: absolute;
     bottom: 15%;
@@ -92,7 +90,6 @@ h1, h2 {
     max-height: 300px;
     overflow: hidden;
 }
-
 .upitnik-txt {
     max-width: 60vw;
     font-family: "Times New Roman", serif;
@@ -104,8 +101,8 @@ h1, h2 {
 
 .upitnik img { 
     width: 50%;
-    height: auto; /* ⬅ popravak */
-    object-fit: contain; /* ⬅ popravak */
+    height: 300px;
+    object-fit: cover;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
@@ -132,9 +129,8 @@ section {
 .pozadinskaSlikaOnama {
     position: relative;
     background-image: url("../Slike/pozadinskaSlikaOnama.jpg");
-    background-size: contain;  /* ⬅ popravak: NE odsijeca sliku */
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     width: 100%;
     max-width: 1200px;
     margin: auto;
@@ -150,6 +146,13 @@ section {
     overflow: hidden;
 }
 
+
+.pozadinskaSlikaOnama {
+    background-size: cover;      /* ispuni prostor */
+    background-position: center; /* centrirano */
+    background-repeat: no-repeat;
+}
+
 .pozadinskaSlikaOnama h1,
 .pozadinskaSlikaOnama p {
     position: relative;
@@ -163,10 +166,8 @@ section {
 } 
 
 .slika-tima img {
-    width: 100%;
+    width: 65%;
     max-width: 650px;
-    height: auto; /* ⬅ popravak */
-    object-fit: contain; /* ⬅ popravak */
     border-radius: 25px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
@@ -233,8 +234,6 @@ footer {
     text-align: center;
     padding: 15px;
 }
-
-/* ================= GLOBAL MOBILE FIX ================= */
 @media (max-width: 768px) {
 
     /* === TYPOGRAPHY === */
@@ -298,7 +297,6 @@ footer {
         max-width: 100%;
     }
 }
-
 /* VIDEO RESPONSIVE */
 video {
     width: 100%;
