@@ -235,80 +235,18 @@ footer {
     text-align: center;
     padding: 15px;
 }
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo.velik-text {
-        left: 5%;
-        right: 5%;
-        font-size: 90%;
-    }
-}
-/* ================= RESPONSIVE ================= */
-
-/* TABLET */
-/* ================= GLOBAL RESPONSIVE FONT FIX ================= */
+/* ================= GLOBAL MOBILE FIX ================= */
 @media (max-width: 768px) {
 
-    h1 {
-        font-size: 26px;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
-
-    p {
-        font-size: 16px;
-        line-height: 1.5;
-    }
-
-    .logo.velik {
-        height: 50vh;
-    }
-
-    .logo.velik-text {
-        padding: 15px;
-        left: 5%;
-        right: 5%;
-    }
-
-    .logo.velik-text h1 {
-        font-size: 24px;
-    }
-
-    .logo.velik-text p {
-        font-size: 15px;
-    }
-
-    .upitnik-txt {
-        font-size: 16px;
-        max-width: 90vw;
-    }
-}
-/* MOBITEL */
-/* ================= GLOBAL MOBILE TEXT FIX ================= */
-@media (max-width: 768px) {
-
-    /* SVI PARAGRAFI */
+    /* === TYPOGRAPHY === */
     p {
         font-size: 16px;
         line-height: 1.6;
-        max-width: 38ch;      /* KLJUČNO */
+        max-width: 38ch;
         margin-left: auto;
         margin-right: auto;
     }
 
-    /* NASLOVI */
     h1 {
         font-size: 26px;
         max-width: 20ch;
@@ -321,6 +259,35 @@ footer {
         max-width: 24ch;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /* === IMAGES === */
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Hero / velike slike */
+    .logo.velik {
+        height: 45vh;
+    }
+
+    .logo.velik img {
+        object-fit: cover;
+    }
+     .pozadinskaSlikaOnama img {
+        object-fit: cover;
+    }
+
+    /* Ostale content slike */
+    .upitnik img,
+    .product img,
+    .slika-tima img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: auto;
     }
 }
 
