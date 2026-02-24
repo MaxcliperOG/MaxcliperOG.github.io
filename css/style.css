@@ -296,73 +296,31 @@ footer {
     }
 }
 /* MOBITEL */
+/* ================= GLOBAL MOBILE TEXT FIX ================= */
 @media (max-width: 768px) {
 
-    header {
-        padding: 15px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo img {
-        height: 45px;
-    }
-
-    .logo.velik {
-        height: 50vh;
-    }
-
-    .logo.velik-text {
-        padding: 15px;
-    }
-
-    .logo.velik-text h1 {
-        font-size: 28px;
-    }
-
-    .logo.velik-text p {
+    /* SVI PARAGRAFI */
+    p {
         font-size: 16px;
+        line-height: 1.6;
+        max-width: 38ch;      /* KLJUČNO */
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .pozadinskaSlikaOnama {
-        font-size: 18px;
-        padding: 25px 15px;
+    /* NASLOVI */
+    h1 {
+        font-size: 26px;
+        max-width: 20ch;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .product img {
-        max-width: 100%;
-    }
-
-    form {
-        width: 90%;
-        margin: auto;
-    }
-}
-
-/* MALI MOBITEL */
-@media (max-width: 480px) {
-
-    .logo.velik-text h1 {
-        font-size: 24px;
-    }
-
-    .logo.velik-text p {
-        font-size: 14px;
-    }
-
-    section {
-        padding: 15px;
-    }
-
-    nav ul {
-        gap: 8px;
-    }
-
-    .pozadinskaSlikaOnama {
-        font-size: 16px;
+    h2 {
+        font-size: 22px;
+        max-width: 24ch;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
