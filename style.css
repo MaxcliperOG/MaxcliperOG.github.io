@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------------------------------------------------------*/
-/* NOVI HERO (KAO NA SLICI) */
+/* NOVI HERO  */
 
 .hero {
     background: url("images/hero.jpg") center/cover no-repeat;
@@ -175,8 +175,8 @@ h1, h2, h3 {
 }
 /* O NAMA - LJEPŠI TEKST */
 .about-text {
-    max-width: 600px; /* NE PREŠIROKO */
-    line-height: 1.8; /* RAZMAK IZMEĐU REDOVA */
+    max-width: 600px; 
+    line-height: 1.8; 
     font-size: 16px;
 }
 
@@ -205,7 +205,7 @@ h1, h2, h3 {
     height: 80px;
 }
 
-/* FEATURE CARD (kao na slici) */
+/* FEATURE CARD */
 .feature-card {
     background: #727374;
     border-radius: 15px;
@@ -218,7 +218,7 @@ h1, h2, h3 {
 }
 
 /*--------------------------------------------------------------------------------------------------------------------*/
-/* RESPONSIVE - sakrij sliku (kuhar efekt) */
+/* RESPONSIVE - sakrij sliku  */
 
 @media (max-width: 768px) {
 
