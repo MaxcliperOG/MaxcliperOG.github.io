@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="index.html">
+<img src="images/logo.svg" width="60"> JDFX
+</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Početna</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">O nama</a></li>
+<li class="nav-item"><a class="nav-link" href="services.html">Usluge</a></li>
+<li class="nav-item"><a class="nav-link" href="delivery.html">Dostava</a></li>
+<li class="nav-item"><a class="nav-link" href="payment.html">Plaćanje</a></li>
+<li class="nav-item"><a class="nav-link active" href="contact.html">Kontakt</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- KONTAKT SEKCIJA -->
+<section class="kontakt-sekcija">
+<div class="container">
+
+<h1 class="kontakt-naslov">Kontaktirajte nas</h1>
+
+<div class="row mt-4">
+
+<!-- FORMA -->
+<div class="col-md-6">
+<form onsubmit="return prikaziPoruku()">
+
+<label>Ime i prezime:</label>
+<input type="text" class="form-control mb-3" required>
+
+<label>Email:</label>
+<input type="email" class="form-control mb-3" required>
+
+<label>Poruka:</label>
+<textarea class="form-control mb-3" required></textarea>
+
+<button type="submit" class="btn kontakt-btn w-100">Pošalji</button>
+
+<!-- PORUKA -->
+<p id="poruka" style="display:none; color:green; margin-top:10px;">
+Pokušati ćemo u sljedeća 2-3 dana odgovoriti. Hvala na informaciji.
+</p>
+
+</form>
+</div>
+
+<!-- INFO -->
+<div class="col-md-6 kontakt-info">
+
+<p><strong>Email:</strong> 
+<a href="mailto:info@tsmart.hr">info@tsmart.hr</a>
+</p>
+
+<p><strong>Telefon:</strong> +385 91 123 4567</p>
+
+<h3 class="lokacija">Naša Lokacija: Ulica J.P. Kamova 28</h3>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3">
+© 2026JDFX-tvrtka za vašu budućnost
+</footer>
+
+<!-- SCRIPT -->
+<script>
+function prikaziPoruku() {
+    document.getElementById("poruka").style.display = "block";
+    return false;
+}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
