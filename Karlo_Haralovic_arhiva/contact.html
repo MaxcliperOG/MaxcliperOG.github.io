@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Kontakt</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+
+<a class="navbar-brand d-flex align-items-center" href="index.html">
+<img src="images/logo.svg" width="60" class="me-2" alt="JDFX logo">
+JDFX
+</a>
+
+<button class="navbar-toggler" type="button"
+data-bs-toggle="collapse"
+data-bs-target="#nav"
+aria-controls="nav"
+aria-expanded="false"
+aria-label="Otvori navigaciju">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">Početna</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">O nama</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="services.html">Usluge</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="delivery.html">Dostava</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="payment.html">Plaćanje</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="contact.html">Kontakt</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+</nav>
+
+
+<!-- NASLOV -->
+<section class="page-hero">
+
+<div class="page-hero-content">
+<h1>Kontakt</h1>
+</div>
+
+</section>
+
+
+<!-- KONTAKT -->
+<section class="kontakt-sekcija">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<p class="mx-auto" style="max-width: 700px;">
+Imate pitanje o našim uslugama, proizvodima, dostavi ili plaćanju?
+Pošaljite nam poruku i odgovorit ćemo vam u najkraćem mogućem roku.
+</p>
+
+</div>
+
+
+<div class="row g-5">
+
+<!-- FORMA -->
+<div class="col-lg-6">
+
+<div class="kontakt-kartica">
+
+<h2 class="mb-4">Pošaljite poruku</h2>
+
+<form id="kontaktForma" onsubmit="return prikaziPoruku()">
+
+<div class="mb-3">
+
+<label for="ime" class="form-label">
+Ime i prezime
+</label>
+
+<input
+type="text"
+id="ime"
+class="form-control"
+placeholder="Unesite ime i prezime"
+required>
+
+</div>
+
+
+<div class="mb-3">
+
+<label for="email" class="form-label">
+Email
+</label>
+
+<input
+type="email"
+id="email"
+class="form-control"
+placeholder="primjer@email.com"
+required>
+
+</div>
+
+
+<div class="mb-3">
+
+<label for="porukaTekst" class="form-label">
+Poruka
+</label>
+
+<textarea
+id="porukaTekst"
+class="form-control"
+placeholder="Napišite svoju poruku..."
+required></textarea>
+
+</div>
+
+
+<button type="submit" class="btn kontakt-btn w-100">
+Pošalji poruku
+</button>
+
+
+<div
+id="poruka"
+class="alert alert-success mt-3"
+style="display: none;"
+role="alert">
+
+Hvala na poruci. Pokušat ćemo odgovoriti u roku od 2 do 3 radna dana.
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+
+<!-- KONTAKT PODACI -->
+<div class="col-lg-6">
+
+<div class="kontakt-kartica kontakt-info">
+
+<h2 class="mb-4">Kontakt podaci</h2>
+
+<p>
+<strong>Email:</strong><br>
+<a href="mailto:info@tsmart.hr">
+info@tsmart.hr
+</a>
+</p>
+
+<p>
+<strong>Telefon:</strong><br>
+<a href="tel:+385911234567">
++385 91 123 4567
+</a>
+</p>
+
+<p>
+<strong>Adresa:</strong><br>
+Ulica J. P. Kamova 28
+</p>
+
+<h3 class="lokacija">
+Naša lokacija
+</h3>
+
+<p>
+Posjetite nas na našoj lokaciji ili nam se obratite putem telefona i emaila.
+</p>
+
+<a
+href="https://www.google.com/maps/search/?api=1&query=Ulica+J.P.+Kamova+28"
+target="_blank"
+class="btn btn-outline-success">
+
+Otvori lokaciju na karti
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3">
+© 2026 JDFX - tvrtka za vašu budućnost
+</footer>
+
+
+<!-- JAVASCRIPT -->
+<script>
+
+function prikaziPoruku() {
+
+    document.getElementById("poruka").style.display = "block";
+
+    document.getElementById("kontaktForma").reset();
+
+    return false;
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
