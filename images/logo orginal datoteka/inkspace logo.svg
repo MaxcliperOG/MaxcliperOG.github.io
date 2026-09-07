@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="inkspace logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0267829"
+     inkscape:cx="333.56612"
+     inkscape:cy="679.30619"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Sloj 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#0000ff;stroke-width:0.264583"
+       id="rect1"
+       width="210.99756"
+       height="151.23312"
+       x="0"
+       y="97.299393" />
+    <rect
+       style="fill:#4d4d4d;stroke-width:0.264583"
+       id="rect2"
+       width="193.00371"
+       height="106.93797"
+       x="7.7304554"
+       y="122.1412"
+       ry="22.933683" />
+    <rect
+       style="fill:#0c3ca0;stroke-width:0.241165;fill-opacity:1"
+       id="rect2-8"
+       width="176.51205"
+       height="97.146065"
+       x="15.628714"
+       y="127.17029"
+       ry="20.833731" />
+    <rect
+       style="fill:#5d8ce6;fill-opacity:1;stroke-width:0.264583"
+       id="rect3"
+       width="3.0921822"
+       height="27.056595"
+       x="10.307274"
+       y="159.76274"
+       ry="1.5460911"
+       rx="1.5460911" />
+    <ellipse
+       style="fill:#2264ec;fill-opacity:1;stroke-width:0.264583"
+       id="path3"
+       cx="178.187"
+       cy="173.93526"
+       rx="8.1169786"
+       ry="7.9881372" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke-width:0.215123"
+       id="path4"
+       cx="178.31586"
+       cy="173.8064"
+       rx="5.6690006"
+       ry="5.5401597"
+       inkscape:transform-center-x="-1.0307274" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="path5"
+       sodipodi:type="arc"
+       sodipodi:cx="46.180447"
+       sodipodi:cy="170.06621"
+       sodipodi:rx="28.345003"
+       sodipodi:ry="27.314276"
+       sodipodi:start="0.61846652"
+       sodipodi:end="5.7027727"
+       sodipodi:arc-type="slice"
+       d="m 69.275062,185.90265 a 28.345003,27.314276 0 0 1 -31.977278,10.10198 28.345003,27.314276 0 0 1 -19.45721,-26.4581 28.345003,27.314276 0 0 1 20.487699,-25.72562 28.345003,27.314276 0 0 1 31.555299,11.267 l -23.703125,14.9783 z"
+       transform="rotate(-1.2869863)" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="path6"
+       cx="57.849579"
+       cy="152.80534"
+       rx="4.2517505"
+       ry="4.1229095" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.3744px;font-family:Constantia;-inkscape-font-specification:'Constantia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.621695;stroke-dasharray:none;stroke-opacity:1"
+       x="81.149063"
+       y="173.41809"
+       id="text6"
+       transform="scale(0.92943729,1.0759198)"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.3744px;font-family:Constantia;-inkscape-font-specification:'Constantia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.621695;stroke-dasharray:none;stroke-opacity:1"
+         x="81.149063"
+         y="173.41809">Jdfx</tspan></text>
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.746052;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6"
+       width="32.725597"
+       height="5.4113188"
+       x="86.065742"
+       y="126.2641"
+       ry="2.7056594" />
+  </g>
+</svg>
